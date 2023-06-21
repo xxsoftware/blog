@@ -8,9 +8,7 @@ keywords: [electron, vue, vite]
 description: 搭建 Electron Vue3 的开发环境，用于编写跨平台应用
 ---
 
-![image-20220316204205165](https://img.kuizuo.cn/image-20220316204205165.png)
-
-之前用 electron-vue 写过一个半成品的桌面端应用，但是是基于 Vue2 的，最近又想重写点桌面端应用，想要上 Vue3+TypeScript，于是便有了这篇文章总结下具体的搭建过程。
+之前用 electron-vue 写过一个半成品的桌面端应用，但是是基于 Vue2 的，最近又想重写点桌面端应用，想要上 Vue3，于是便有了这篇文章总结下具体的搭建过程。
 
 <!-- truncate -->
 
@@ -67,24 +65,11 @@ npm run electron:serve
 
 参考文章：[Electron + Vue3 开发跨平台桌面应用【从项目搭建到打包完整过程】 - 掘金 (juejin.cn)](https://juejin.cn/post/6983843979133468708)
 
-### 坑
-
-```
-error  in ./src/background.ts
-
-Module build failed (from ./node_modules/ts-loader/index.js):
-TypeError: loaderContext.getOptions is not a function
-```
-
-我测试的时候，`@vue/cli-plugin-typescript`版本为`~5.0.0`，就会导致编译类型出错，将 package.json 中改为`"@vue/cli-plugin-typescript": "~4.5.15"`，即可正常运行（但还是会有 DeprecationWarning）
-
 ## Vite
 
 上面是使用 Vue Cli 脚手架进行开发，如果想上 Vite 的话，就需要用 Vite 来构建项目，然后安装 electron 的相关依赖。
 
 这个不是作为重点，因为很多大佬都已经写了现成的模板，完全可以自行借鉴学习，就贴几个阅读过的几篇文章
-
-[Vite + Vue 3 + electron + TypeScript - DEV Community](https://dev.to/brojenuel/vite-vue-3-electron-5h4o)
 
 [2021 年最前卫的跨平台开发选择！vue3 + vite + electron - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/424202065)
 

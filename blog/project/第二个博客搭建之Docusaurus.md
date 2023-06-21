@@ -34,7 +34,7 @@ yarn start
 
 ### [博客页](/)
 
-![image-20230221120937768](https://img.kuizuo.cn/image-20230221120937768.png)
+![image-20230221120937768](https://img.xxsoftware.top/blogshow.png)
 
 - 支持 3 种博文信息展示
 - 博客个人信息卡片
@@ -42,29 +42,29 @@ yarn start
 
 ### [归档页](/archive)
 
-![image-20220804052418993](https://img.kuizuo.cn/image-20220804052418993.png)
+![image-20220804052418993](https://img.xxsoftware.top/bloghistory.png)
 
 ### [资源导航](/resource)
 
-![image-20220804052016538](https://img.kuizuo.cn/image-20220804052016538.png)
+![image-20220804052016538](https://img.xxsoftware.top/blognav.png)
 
 - 在此分享所收藏的一些好用、实用网站。
 
 ### 评论
 
-![image-20220804052746803](https://img.kuizuo.cn/image-20220804052746803.png)
+![image-20220804052746803](https://img.xxsoftware.top/blog_comments.png)
 
 - 接入 [giscus](https://giscus.app) 作为评论系统，支持 GitHub 登录。
 
 ### [项目](/project)
 
-![image-20220804052117492](https://img.kuizuo.cn/image-20220804052117492.png)
+![image-20220804052117492](https://img.xxsoftware.top/blogproject.png)
 
 - 存放你的项目，或是当做一个作品集用于展示。
 
 ## 部署
 
-按传统的方式，你编写好一篇文章后，需要重新打包成静态文件（.html），然后将静态文件上传到服务器（需要自己准备）上，然后通过 nginx 配置域名访问。如今有了自动化部署，你只需要将代码 push 到 Github 上，然后通过 CI/CD 自动化部署到服务器上。可以参考 [ci.yml](https://github.com/kuizuo/blog/blob/main/.github/workflows/ci.yml) 配置文件。
+按传统的方式，你编写好一篇文章后，需要重新打包成静态文件（.html），然后将静态文件上传到服务器（需要自己准备）上，然后通过 nginx 配置域名访问。如今有了自动化部署，你只需要将代码 push 到 Github 上，然后通过 CI/CD 自动化部署到服务器上。可以参考 [ci.yml](https://github.com/xxsoftware/blog/blob/main/.github/workflows/ci.yml) 配置文件。
 
 这里推荐使用 [Vercel 部署个人博客](/vercel-deploy-blog)，部署十分简单，你甚至不需要服务器，只需要有个 Github 账号，将你的博客项目添加为一个仓库中即可（也许需要科学上网）。
 

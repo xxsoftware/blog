@@ -6,10 +6,7 @@ authors: 東雲研究所
 tags: [vercel, blog]
 keywords: [vercel, blog]
 description: 使用 Vercel 部署个人博客过程记录，简单方便、访问快、免费部署。
-image: https://img.kuizuo.cn/image-20220511170700075.png
 ---
-
-![image-20220511170700075](https://img.kuizuo.cn/image-20220511170700075.png)
 
 :::tip 观前提醒
 
@@ -41,21 +38,13 @@ image: https://img.kuizuo.cn/image-20220511170700075.png
 
 进入 [Dashboard](https://vercel.com/dashboard)
 
-![image-20220511170233559](https://img.kuizuo.cn/image-20220511170233559.png)
-
 点击 [New Project](https://vercel.com/new)
-
-![image-20220511165902993](https://img.kuizuo.cn/image-20220511165902993.png)
 
 这里可以从已有的 git repository 中导入，也可以选择一个模板。
 
-这里登录我的 Github 账号选择仓库，然后点击 blog 仓库旁的 Import 即可。当然，你也可以直接拉取我的仓库，仓库地址：[kuizuo/blog](https://github.com/kuizuo/blog)
-
-![image-20220511165513526](https://img.kuizuo.cn/image-20220511165513526.png)
+这里登录我的 Github 账号选择仓库，然后点击 blog 仓库旁的 Import 即可。当然，你也可以直接拉取我的仓库，仓库地址：[xxsoftware/blog](https://github.com/xxsoftware/blog)
 
 点击 Deploy，然后静等网站安装依赖以及部署，稍后将会出现下方页面。
-
-![image-20220511170700075](https://img.kuizuo.cn/image-20220511170700075.png)
 
 此时网站已经成功搭建完毕了，点击图片即可跳转到 vercel 所提供的二级域名访问。
 
@@ -67,19 +56,13 @@ image: https://img.kuizuo.cn/image-20220511170700075.png
 
 首先进入 blog 的控制台，在 Settings -> Domains 添加域名。
 
-![image-20220511171144240](https://img.kuizuo.cn/image-20220511171144240.png)
-
 接着提示域名需要 DNS 解析到 vercel 提供的记录值
-
-![image-20220511171359148](https://img.kuizuo.cn/image-20220511171359148.png)
 
 登录所在的域名服务商，根据 Vercel 提供的记录值 cname.vercel-dns.com，添加两条记录
 
-![image-20220511172741663](https://img.kuizuo.cn/image-20220511172741663.png)
+![image-20220511172741663](https://img.xxsoftware.top/image-20220511172741663.png)
 
 此时回到 Vercel，可以看到记录值成功生效。
-
-![image-20220511172027570](https://img.kuizuo.cn/image-20220511172027570.png)
 
 此时访问自己的域名，同样也能访问到页面，同时还有可观的访问速度。
 
@@ -87,15 +70,11 @@ image: https://img.kuizuo.cn/image-20220511170700075.png
 
 默认状态下，Vercel 将会颁发并自动更新 SSL 证书。（着实方便，不用自己手动去申请证书，配置证书）
 
-![image-20220511172240999](https://img.kuizuo.cn/image-20220511172240999.png)
-
 ## 持续集成（CI）/持续部署（CD）
 
 > To update your Production Deployment, push to the "main" branch.
 
 当主分支有代码被推送，Vercel 将会重新拉取代码，并重新构建进行单元测试与部署（构建速度可观）
-
-![image-20220511173442694](https://img.kuizuo.cn/image-20220511173442694.png)
 
 ## Serverless
 
@@ -125,26 +104,7 @@ npm i -g vercel
 vercel --prod
 ```
 
-第一次将进行登录授权，选择对应平台，将会自动打开浏览器完成授权，接着将会确认一些信息，一般默认回车即可，下为执行结果
-
-```
-Vercel CLI 24.2.1
-? Set up and deploy “F:\Project\React\online-tools”? [Y/n] y
-? Which scope do you want to deploy to? kuizuo
-? Link to existing project? [y/N] n
-? What’s your project’s name? online-tools
-? In which directory is your code located? ./
-Auto-detected Project Settings (Create React App):
-- Build Command: react-scripts build
-- Output Directory: build
-- Development Command: react-scripts start
-? Want to override the settings? [y/N] n
-🔗  Linked to kuizuo12/online-tools (created .vercel and added it to .gitignore)
-🔍  Inspect: https://vercel.com/kuizuo12/online-tools/6t8Vt8rG3waGVHTKU7ZzJuGc6Hoq [2s]
-✅  Production: https://online-tools-phi.vercel.app [copied to clipboard] [2m]
-📝  Deployed to production. Run `vercel --prod` to overwrite later (https://vercel.link/2F).
-💡  To change the domain or build command, go to https://vercel.com/kuizuo12/online-tools/settings
-```
+第一次将进行登录授权，选择对应平台，将会自动打开浏览器完成授权，接着将会确认一些信息，一般默认回车即可
 
 执行完毕后，将会在根目录创建.vercel 文件夹，其中 project.json 中存放 orgId 和 projectId，下面将会用到。此时在[dashboard](https://vercel.com/dashboard)中也能看到该项目被部署了。
 

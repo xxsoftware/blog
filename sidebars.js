@@ -119,7 +119,6 @@ const sidebars = {
     'tools/power-toys',
     'tools/wappalyzer-recognize-technology',
     'tools/vite-plugin',
-    'tools/jetbrains-product-activation-method',
   ],
 }
 
