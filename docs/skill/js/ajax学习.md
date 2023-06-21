@@ -2,7 +2,7 @@
 id: ajax-study
 slug: /ajax-study
 title: ajax学习
-date: 2020-11-2
+date: 2021-3-2
 authors: 東雲研究所
 tags: [js, http, ajaxs]
 keywords: [js, http, ajaxs]
@@ -88,6 +88,39 @@ keywords: [js, http, ajaxs]
             3.表单提交
             4.Postman 模拟 http 请求
     Ajax 的原理是通过 XMLhttpRequest 对象向服务器发送异步请求，从服务器获得数据，然后用 javascript 来操作 DOM 而更新页面。这其中最关键的一步就是从服务器获得请求数据。
+
+## ajax 的步骤
+
+            1. 创建 XMLHttpRequest 对象,也就是创建一个异步调用对象.
+
+                var xhr;
+                if (window.XMLHttpRequest){
+                    xhr = new XMLHttpRequest()                      //  ie7+
+                }else{
+                    xhr = new ActiveXObject('Microsoft.XMLHTTP');            //ie5、6
+                }
+
+            2.创建一个新的HTTP请求,并指定该HTTP请求的方法、URL及验证信息   HTTP:Hyper Text Transfer Protocol(超文本传输协议)
+                xhr.open('get','http:xxxx',true);  //指定请求的方式   第一个参数是请求的方式 ，第二个参数是请求的地址，第三个参数true为异步 false为同步
+                xhr.send();
+                xhr.onreadystatechange = function(){ //onreadystatechange获取响应  监听readyState事件 即readyState变化了之后会触发onreadystatechange
+                 //xhr.readyState
+                //0:请求未初始化
+                //1:服务器连接已建立
+                //2:请求已接收
+                //3:请求处理中
+                //4：请求已完成，且响应已就绪
+                    if(xhr.readyState===4)
+                {
+                ajax中接受响应最主要的四个属性：
+                    //responseText:文本 ；   responseXML:XML 类型的值为'application/xml' ； status    ；statusText
+                if(xhr.status>=200 && xhr.status<300 || xhr.status ==304){
+                    console.log(xhr.responseText)
+                }
+            3.设置响应HTTP请求状态变化的函数
+            4.发送HTTP请求.
+            5.获取异步调用返回的数据.
+            6. 使用JavaScript和DOM实现局部刷新.
 
 ## ajax 第三方模块
 
