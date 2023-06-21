@@ -1,6 +1,6 @@
 ---
-slug: vue-chrome-extension
-title: 使用Vue开发Chrome插件
+slug: Vite-chrome-extension
+title: 使用Vite开发Chrome插件
 date: 2021-09-18
 authors: 東雲研究所
 tags: [chrome, plugin, vue, develop]
@@ -14,89 +14,41 @@ description: 使用 Vue2 开发一个 Chrome 插件
 
 ## 前言
 
-我当时学习开发 Chrome 插件的时候，还不会 Vue，更别说 Webpack 了，所以使用的都是原生的 html 开发，效率就不提了，而这次就准备使用 vue-cli 来进行编写一个某 B 站获取视频信息,评论的功能（原本是打算做自动回复的），顺便巩固下 chrome 开发（快一年没碰脚本类相关技术了），顺便写套模板供自己后续编写 Chrome 插件做铺垫。
+之前学习开发 Chrome 插件的时候，用的是原生的技术，效率低，而这次发现了一个基于 vite 的浏览器插件入门模板，分享学习一下
 
-相关代码开源[github 地址](https://github.com/kuizuo/vue-chrome-extension)
+相关代码开源[github 地址](https://github.com/antfu/vitesse-webext)
 
 ## 环境搭建
 
-[Vue Web-Extension - A Web-Extension preset for VueJS (vue-web-extension.netlify.app)](https://vue-web-extension.netlify.app/)
-
 ```sh
-npm install -g @vue/cli
-npm install -g @vue/cli-init
-vue create --preset kocal/vue-web-extension my-extension
-cd my-extension
-npm run server
+npx degit antfu/vitesse-webext my-webext
+cd my-webext
+pnpm i
 ```
 
-会提供几个选项，如 Eslint，background.js，tab 页，axios，如下图
-
-![image-20210916142751129](https://img.kuizuo.cn/image-20210916142751129.png)
-
-选择完后，将会自动下载依赖，通过 npm run server 将会在根目录生成 dist 文件夹，将该文件拖至 Chrome 插件管理便可安装，由于使用了 webpack，所以更改代码将会热更新，不用反复的编译导入。
+安装完就可以跑了
 
 ### 项目结构
 
 ```
-├─src
-|  ├─App.vue
-|  ├─background.js
-|  ├─main.js
-|  ├─manifest.json
-|  ├─views
-|  |   ├─About.vue
-|  |   └Home.vue
-|  ├─store
-|  |   └index.js
-|  ├─standalone
-|  |     ├─App.vue
-|  |     └main.js
-|  ├─router
-|  |   └index.js
-|  ├─popup
-|  |   ├─App.vue
-|  |   └main.js
-|  ├─override
-|  |    ├─App.vue
-|  |    └main.js
-|  ├─options
-|  |    ├─App.vue
-|  |    └main.js
-|  ├─devtools
-|  |    ├─App.vue
-|  |    └main.js
-|  ├─content-scripts
-|  |        └content-script.js
-|  ├─components
-|  |     └HelloWorld.vue
-|  ├─assets
-|  |   └logo.png
-├─public
-├─.browserslistrc
-├─.eslintrc.js
-├─.gitignore
-├─babel.config.js
-├─package.json
-├─vue.config.js
-├─yarn.lock
-```
+src - main source.
+    contentScript - scripts and components to be injected as content_script
+    background - scripts for background.
+    components - auto-imported Vue components that are shared in popup and options page.
+    styles - styles shared in popup and options page
+    assets - assets used in Vue components
+    manifest.ts - manifest for the extension.
+extension - extension package root.
+    assets - static assets (mainly for manifest.json).
+    dist - built files, also serve stub entry for Vite on development.
+scripts - development and bundling helper scripts.
 
-根据所选的页面，并在 src 与 vue.config.js 中配置页面信息编译后 dist 目录结构如下
 
 ```
-├─devtools.html
-├─favicon.ico
-├─index.html
-├─manifest.json
-├─options.html
-├─override.html
-├─popup.html
-├─_locales
-├─js
-├─icons
-├─css
-```
+
+├─devtools.html ├─favicon.ico ├─index.html ├─manifest.json ├─options.html ├─override.html ├─popup.html ├─_locales ├─js ├─icons ├─css
+
+````
 
 ### 安装组件库
 
@@ -120,7 +72,7 @@ npm run server
 
 ```bash
 npm install tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
-```
+````
 
 创建 postcss.config.js 文件
 
