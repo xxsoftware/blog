@@ -1,0 +1,47 @@
+{
+  "name": "東雲研究所的小站",
+  "short_name": "東雲研究所的小站",
+  "theme_color": "#12affa",
+  "background_color": "#424242",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./index.html",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://blog.xxsoftware.top/manifest.json"
+    }
+  ],
+  "icons": [
+    {
+      "src": "img/icons/icon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
