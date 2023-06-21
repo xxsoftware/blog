@@ -19,7 +19,7 @@
 
 在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。
 
-如果你想要搭建一个类似的站点，可直接 [Fork](https://github.com/xxsoftware/blog/fork) 本仓库使用，或者通过 [StackBlitz](https://stackblitz.com/github/kuizuo/blog) 在线运行本项目，或通过 [Vercel](https://vercel.com/new/clone?repository-url=https://github.com/kuizuo/blog/tree/main&project-name=blog&repo-name=blog) 一键部署。
+如果你想要搭建一个类似的站点，可直接 [Fork](https://github.com/xxsoftware/blog/fork) 本仓库使用
 
 ## ✨ Features
 
@@ -63,7 +63,7 @@
 ## 📥 Start
 
 ```sh
-git clone https://github.com/kuizuo/blog.git
+git clone https://github.com/xxsoftware/blog.git
 cd blog
 yarn
 yarn start
