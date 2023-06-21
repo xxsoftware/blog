@@ -6,11 +6,10 @@ authors: 東雲研究所
 tags: [blog, docusaurus, project]
 keywords: [blog, docusaurus, project]
 description: 使用 docusaurus 搭建个人博客，并对其主题进行魔改
-image: /img/project/blog.png
 sticky: 5
 ---
 
-博客地址: [東雲研究所的小站](https://kuizuo.cn/)
+博客地址: [東雲研究所的小站](https://blog.xxsoftware.top/)
 
 时隔近半年没好好整理文章，博客也写的不像个人样。:joy:
 
@@ -22,10 +21,10 @@ sticky: 5
 
 ## 安装
 
-如果你想搭建一个类似的博客，可以 [fork 本项目](https://github.com/kuizuo/blog/fork)，修改个人信息，并将文章迁移过来。这里推荐使用 [Vercel 部署个人博客](https://kuizuo.cn/vercel-deploy-blog)，以下是本地安装示例。
+如果你想搭建一个类似的博客，可以 [fork 本项目](https://github.com/xxsoftware/blog/fork)，修改个人信息，并将文章迁移过来。
 
 ```bash
-git clone https://github.com/kuizuo/blog
+git clone https://github.com/xxsoftware/blog
 cd blog
 yarn
 yarn start
