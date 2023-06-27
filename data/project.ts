@@ -18,6 +18,16 @@ export const projects: Project[] = [
     tags: ['opensource', 'design'],
     type: 'web',
   },
+  {
+    title: 'xx记账',
+    description:
+      'trao+vue3+pinia+nutUI构建的记账微信小程序',
+    preview: 'https://img.xxsoftware.top/taro-app.png',
+    website: 'https://img.xxsoftware.top/gh_6f9f88ffcb9a_1280.jpg',
+    source: 'https://gitee.com/xxsoftware/taro-app',
+    tags: ['opensource', 'product'],
+    type: 'web',
+  },
 ]
 
 export type Tag = {

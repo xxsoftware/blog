@@ -130,10 +130,6 @@ keywords: [随笔, windows]
 
 [微信开发者工具下载](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
 
-### MobaXterm
-
-[MobaXterm 下载](https://mobaxterm.mobatek.net/download.html)
-
 ### cnpm
 
     npm install -g cnpm --registry=https://registry.npm.taobao.org
