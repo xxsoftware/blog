@@ -21,10 +21,20 @@ export const projects: Project[] = [
   {
     title: 'xx记账',
     description:
-      'trao+vue3+pinia+nutUI构建的记账微信小程序',
+      'trao+vue3+pinia+nutUI+echarts构建的记账微信小程序',
     preview: 'https://img.xxsoftware.top/taro-app.png',
     website: 'https://img.xxsoftware.top/gh_6f9f88ffcb9a_1280.jpg',
     source: 'https://gitee.com/xxsoftware/taro-app',
+    tags: ['opensource', 'product'],
+    type: 'web',
+  },
+  {
+    title: '小游戏平台',
+    description:
+      'vitesse+elementplus构建的小游戏平台',
+    preview: 'https://img.xxsoftware.top/game-minesweeper.png',
+    website: 'https://www.xxsoftware.top/',
+    source: 'https://gitee.com/xxsoftware/games',
     tags: ['opensource', 'product'],
     type: 'web',
   },
