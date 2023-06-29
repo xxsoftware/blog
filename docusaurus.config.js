@@ -94,6 +94,14 @@ const config = {
               to: 'https://tool.lu/',
             },
             {
+              label: '可视化制作svg',
+              to: 'https://c.runoob.com/more/svgeditor/',
+            },
+            {
+              label: 'apifox接口调试',
+              to: 'https://apifox.com/',
+            },
+            {
               label: '绘图网站',
               to: 'https://www.tldraw.com/',
             },
