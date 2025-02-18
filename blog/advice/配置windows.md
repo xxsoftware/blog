@@ -13,24 +13,24 @@ keywords: [随笔, windows]
 
 ### 先在设置里搜索隐私 之后在隐私选项里把所有选项都关闭
 
-![](https://img.xxsoftware.top/yinsishezhi.png)
+![](https://img.xxsoftware.fun/yinsishezhi.png)
 
 ### 任务栏里关闭 cortana,隐藏搜索等
 
-![](https://img.xxsoftware.top/renwulan.png)
+![](https://img.xxsoftware.fun/renwulan.png)
 
 ### 卸载 onedrive
 
 ### 关闭建议
 
-![](https://img.xxsoftware.top/jianyi.png)
+![](https://img.xxsoftware.fun/jianyi.png)
 
 ### 关闭开机自启的项目
 
     直接可以在任务管理器中完成关闭开机自启
     建议把绝大部分的国产软件自启动和对启动影响较高的任务关闭
 
-![](https://img.xxsoftware.top/kaijiziqi.png)
+![](https://img.xxsoftware.fun/kaijiziqi.png)
 
 ### 关闭自动服务
 
@@ -41,12 +41,12 @@ keywords: [随笔, windows]
 
     先在主文件夹找到下载
 
-![](https://img.xxsoftware.top/xiazai.png)
+![](https://img.xxsoftware.fun/xiazai.png)
 
     然后在下载的属性里 =>选择位置=>移动
     一般放在D盘就行了
 
-![](https://img.xxsoftware.top/xiazaiweizhiyidong.png)
+![](https://img.xxsoftware.fun/xiazaiweizhiyidong.png)
 
     同理:桌面、文档、音乐、照片目录也都可以移动
 
@@ -54,7 +54,7 @@ keywords: [随笔, windows]
 
     打开资源管理器,点击 查看=>显示=>文件扩展名 和 隐藏的项目
 
-![](https://img.xxsoftware.top/kuozhanming.png)
+![](https://img.xxsoftware.fun/kuozhanming.png)
 
 ## 软件的安装
 

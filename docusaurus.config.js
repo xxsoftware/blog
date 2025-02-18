@@ -7,7 +7,7 @@ const announcementBarContent = `<a href="/rip-ch" target="_blank">世间再无�
 const config = {
   title: '東雲研究所',
   titleDelimiter: '-',
-  url: 'https://blog.xxsoftware.top/',
+  url: 'https://blog.xxsoftware.fun/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   projectName: 'blog',
@@ -75,7 +75,7 @@ const config = {
           items: [
             {
               label: '前端示例',
-              to: 'https://lib.xxsoftware.top/',
+              to: 'https://lib.xxsoftware.fun/',
             },
             {
               label: 'Vue.js 挑战',
@@ -181,7 +181,7 @@ const config = {
             },
             {
               label: '前端示例',
-              to: 'https://lib.xxsoftware.top/',
+              to: 'https://lib.xxsoftware.fun/',
             },
           ],
         },

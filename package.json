@@ -5,7 +5,7 @@
     "url": "https://github.com/xxsoftware/blog",
     "type": "git"
   },
-  "homepage": "https://blog.xxsoftware.top/",
+  "homepage": "https://blog.xxsoftware.fun/",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",

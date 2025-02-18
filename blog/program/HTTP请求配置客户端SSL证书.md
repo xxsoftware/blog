@@ -17,7 +17,7 @@ HTTPS 协议是由 SSL/TLS+HTTP 协议构建的可进行加密传输、身份认
 
     HTTP 协议也就是超文本传输协议，是一种使用明文数据传输的网络协议。一直以来 HTTP 协议都是最主流的网页协议，HTTP 协议被用于在 Web 浏览器和网站服务器之间传递信息，以明文方式发送内容，不提供任何方式的数据加密，如果攻击者截取了 Web 浏览器和网站服务器之间的传输报文，就可以直接读懂其中的信息。
 
-![](https://img.xxsoftware.top/https-demo.jpg)
+![](https://img.xxsoftware.fun/https-demo.jpg)
 
 ### HTTPS
 
@@ -25,7 +25,7 @@ HTTPS 协议是由 SSL/TLS+HTTP 协议构建的可进行加密传输、身份认
 
 ### HTTP 和 HTTPS 的区别
 
-![](https://img.xxsoftware.top/http-safe.jpg)
+![](https://img.xxsoftware.fun/http-safe.jpg)
 
 #### 1.安全性不同
 
@@ -55,7 +55,7 @@ HTTPS 协议是由 SSL/TLS+HTTP 协议构建的可进行加密传输、身份认
 
     之后你就需要一个SSl证书了,我这里用的是阿里云的免费证书，阿里云可以免费申请20个SSL证书，当然你也可以直接购买。
 
-![](https://img.xxsoftware.top/SSL.jpg)
+![](https://img.xxsoftware.fun/SSL.jpg)
 
 ### 部署
 

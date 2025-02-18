@@ -26,14 +26,14 @@ keywords: [chrome, 插件]
 
 Wappalyzer 官网
 
-![image-20210729074332788](https://img.xxsoftware.top/wapp.png)
+![image-20210729074332788](https://img.xxsoftware.fun/wapp.png)
 
 东云研究所的个人博客
 
-![image-20210802131116542](https://img.xxsoftware.top/wappblog.png)
+![image-20210802131116542](https://img.xxsoftware.fun/wappblog.png)
 
 我的组件库
 
-![image-20210729074249566](https://img.xxsoftware.top/wapplib.png)
+![image-20210729074249566](https://img.xxsoftware.fun/wapplib.png)
 
 本人测试过多个网站，分析结果与实际也如图所示，按理来说不会分析错，最多也就是没分析出来，不过效果可以说非常明显了，有时候看到一个心仪的网站，帮助我们去分析了解对应的技术栈，这再好不过了。

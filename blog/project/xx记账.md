@@ -14,7 +14,7 @@ draft: true
 
 或者记账扫下图小程序二维码
 
-![小程序二维码](https://img.xxsoftware.top/gh_6f9f88ffcb9a_1280.jpg)
+![小程序二维码](https://img.xxsoftware.fun/gh_6f9f88ffcb9a_1280.jpg)
 
 小程序的源码地址：[https://gitee.com/xxsoftware/taro-app](https://gitee.com/xxsoftware/taro-app)
 
@@ -26,7 +26,7 @@ draft: true
 
 ## 页面设计
 
-![图片](https://img.xxsoftware.top/taro-app.png)
+![图片](https://img.xxsoftware.fun/taro-app.png)
 
 ## 项目配置
 
@@ -174,7 +174,7 @@ Taro.login({
 ## 上传发布
 
 当本地开发完毕时，点击右上角的上传，填写版本号相关以及项目备注，然后上传成功如下图
-[](https://img.xxsoftware.top/wx-sc.png)
+[](https://img.xxsoftware.fun/wx-sc.png)
 在网页小程序管理的版本管理中可以看到上传的代码
 随后提交审核,提交发布就可以让小程序上线了
 

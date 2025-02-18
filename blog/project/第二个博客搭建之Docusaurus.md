@@ -9,7 +9,7 @@ description: 使用 docusaurus 搭建个人博客，并对其主题进行魔改
 sticky: 5
 ---
 
-博客地址: [東雲研究所的小站](https://blog.xxsoftware.top/)
+博客地址: [東雲研究所的小站](https://blog.xxsoftware.fun/)
 
 时隔近半年没好好整理文章，博客也写的不像个人样。:joy:
 
@@ -34,7 +34,7 @@ yarn start
 
 ### [博客页](/)
 
-![image-20230221120937768](https://img.xxsoftware.top/blogshow.png)
+![image-20230221120937768](https://img.xxsoftware.fun/blogshow.png)
 
 - 支持 3 种博文信息展示
 - 博客个人信息卡片
@@ -42,23 +42,23 @@ yarn start
 
 ### [归档页](/archive)
 
-![image-20220804052418993](https://img.xxsoftware.top/bloghistory.png)
+![image-20220804052418993](https://img.xxsoftware.fun/bloghistory.png)
 
 ### [资源导航](/resource)
 
-![image-20220804052016538](https://img.xxsoftware.top/blognav.png)
+![image-20220804052016538](https://img.xxsoftware.fun/blognav.png)
 
 - 在此分享所收藏的一些好用、实用网站。
 
 ### 评论
 
-![image-20220804052746803](https://img.xxsoftware.top/blog_comments.png)
+![image-20220804052746803](https://img.xxsoftware.fun/blog_comments.png)
 
 - 接入 [giscus](https://giscus.app) 作为评论系统，支持 GitHub 登录。
 
 ### [项目](/project)
 
-![image-20220804052117492](https://img.xxsoftware.top/blogproject.png)
+![image-20220804052117492](https://img.xxsoftware.fun/blogproject.png)
 
 - 存放你的项目，或是当做一个作品集用于展示。
 

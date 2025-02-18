@@ -28,23 +28,23 @@ keywords: [工具]
 
 ### alt + space 快速查找软件
 
-![](https://img.xxsoftware.top/pt_serach.png)
+![](https://img.xxsoftware.fun/pt_serach.png)
 
 ### win+shift+c 颜色选择器
 
-![](https://img.xxsoftware.top/pt_color.png)
+![](https://img.xxsoftware.fun/pt_color.png)
 
 ### win+shift+m 屏幕标尺
 
-![](https://img.xxsoftware.top/pt_rule.png)
+![](https://img.xxsoftware.fun/pt_rule.png)
 
 ### win+ctrl+t 让软件窗口固定在顶部
 
-![](https://img.xxsoftware.top/pt_top.png) 软件外面套了层灰色的边界就代表被置顶了
+![](https://img.xxsoftware.fun/pt_top.png) 软件外面套了层灰色的边界就代表被置顶了
 
 ### hosts 文件编辑器
 
-![](https://img.xxsoftware.top/powerToys_hosts.png)
+![](https://img.xxsoftware.fun/powerToys_hosts.png)
 
 ### win+shift+t 文本提取器
 

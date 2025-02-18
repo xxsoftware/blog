@@ -8,7 +8,7 @@ keywords: [chrome, plugin, vue, develop]
 description: 使用 Vue2 开发一个 Chrome 插件
 ---
 
-![mini](https://img.xxsoftware.top//mini.jpg)
+![mini](https://img.xxsoftware.fun//mini.jpg)
 
 <!-- truncate -->
 

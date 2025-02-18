@@ -247,7 +247,7 @@ npm run bulid
 
 如果你在该主题使用其他 UI 组件库，如 element，ant design，那么你很有可能会编译失败，官方解释
 
-![image-20201223042921876](https://img.xxsoftware.top/image-20201223042921876.png)
+![image-20201223042921876](https://img.xxsoftware.fun/image-20201223042921876.png)
 
 解决办法很简单，先删除 node_modules，然后**再安装 ui 组件库**依赖后，再安装其他依赖就行了。
 

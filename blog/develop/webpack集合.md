@@ -336,7 +336,7 @@ r.keys().forEach(item => {
 
 ### webpack-dev-server 工作原理
 
-![img](http://img.xxsoftware.top/webpack-dev-server.jpg)
+![img](http://img.xxsoftware.fun/webpack-dev-server.jpg)
 
 ### proxy
 

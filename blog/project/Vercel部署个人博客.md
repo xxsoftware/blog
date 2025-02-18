@@ -60,7 +60,7 @@ description: 使用 Vercel 部署个人博客过程记录，简单方便、访�
 
 登录所在的域名服务商，根据 Vercel 提供的记录值 cname.vercel-dns.com，添加两条记录
 
-![image-20220511172741663](https://img.xxsoftware.top/image-20220511172741663.png)
+![image-20220511172741663](https://img.xxsoftware.fun/image-20220511172741663.png)
 
 此时回到 Vercel，可以看到记录值成功生效。
 
